@@ -24,3 +24,11 @@ ASA5550(config)# icmp deny any echo your_-Outside
 ASA5550(config)# icmp permit any your_Outside 
 ```
 --------------------------------------------------
+
+# ISP3
+-------------------------------------------------
+```bash
+ASA5550(config)# icmp deny any echo your_-Outside 
+ASA5550(config)# icmp permit any your_Outside 
+```
+--------------------------------------------------
